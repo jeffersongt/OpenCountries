@@ -1,5 +1,5 @@
 # OpenCountries
-- This project is a web platform implemented in PHP using the RestCountries API.
+- This project is a web platform developped in PHP implementing the RestCountries API.
 - The objective of the project is to get informations about any country.
 
 # Pré-requis
