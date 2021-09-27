@@ -2,8 +2,8 @@
 - This project is a web platform developped in PHP implementing the RestCountries API.
 - The objective of the project is to get informations about any country.
 
-# Pré-requis
-- PHP
+# Prerequisites
+- PHP 7 
 
 # Usage
 - Open a terminal at the root of the repository and type :
