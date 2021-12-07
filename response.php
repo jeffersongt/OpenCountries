@@ -59,31 +59,46 @@ if (isset($_POST['country']) && isset($_POST['capital']) && isset($_POST['code']
                 <a class="navbar-brand" href="/">OpenCountries</a>
             </div>
         </nav>
-        <div class="grid">
-            <span>
-                <strong>---</strong>
-            </span>
-            <span>
-                <strong>---</strong>
-            </span>
-            <span class="descInfo">Continent</span>
-            <span><?php echo $continent ?></span>
-            <span class="descInfo">Country</span>
-            <span><?php echo $country ?></span>
-            <span class="descInfo">Capital</span>
-            <span><?php echo $capital ?></span>
-            <span class="descInfo">Code</span>
-            <span><?php echo $code ?></span>
-            <span class="descInfo">Language</span>
-            <span><?php echo $language ?></span>
-            <span class="descInfo">Population</span>
-            <span><?php echo $population ?></span>
-            <span class="descInfo">Area</span>
-            <span><?php echo $area ?></span>
-            <span class="descInfo">Currency</span>
-            <span><?php echo $currency . " " . $symbol ?></span>
-            <span class="descInfo">Call</span>
-            <span><?php echo "+" . $call ?></span>
-        </div>
+        <table id="example" class="table table-striped table-bordered" style="width:50%;margin-top: 20px;margin-right:100px;margin-left:380px;background-color:lightgrey;border-color:black">
+        <thead>
+            <tr>
+                <th>Continent</th>
+                <td><?php echo $continent ?></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Country</th>
+                <td><?php echo $country ?></td>
+            </tr>
+            <tr>
+                <th>Capital</th>
+                <td><?php echo $capital ?></td>
+            </tr>
+            <tr>
+                <th>Code</th>
+                <td><?php echo $code ?></td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td><?php echo $language ?></td>
+            </tr>
+            <tr>
+                <th>Population</th>
+                <td><?php echo $population ?></td>
+            </tr>
+            <tr>
+                <th>Area</th>
+                <td><?php echo $area ?></td>
+            </tr>
+            <tr>
+                <th>Currency</th>
+                <td><?php echo $currency . " " . $symbol ?></td>
+            </tr>
+            <tr>
+                <th>Phone code</th>
+                <td><?php echo "+" . $call ?></td>
+            </tr>
+    </table>
     <body>
 </html>
